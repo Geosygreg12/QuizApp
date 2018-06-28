@@ -16,34 +16,34 @@
 
     <string-array name="questionOneOptions">
         <item name="One">Please select an option</item>
-        <item name="A">-1,2</item>
-        <item name="B">2,3</item>
-        <item name="C">0,1</item>
-        <item name="D">-3,1</item>
+        <item name="A">A.) -1,2</item>
+        <item name="B">B.) 2,3</item>
+        <item name="C">C.) 0,1</item>
+        <item name="D">D.) -3,1</item>
     </string-array>
 
     <string-array name="questionTwoOptions">
         <item>Please select an option</item>
-        <item>20</item>
-        <item>36</item>
-        <item>35</item>
-        <item>40</item>
+        <item>A.) 20</item>
+        <item>B.) 36</item>
+        <item>C.) 35</item>
+        <item>D.) 40</item>
     </string-array>
 
     <string-array name="questionThreeOptions">
         <item>Please select an option</item>
-        <item>7/y</item>
-        <item>7y</item>
-        <item>(490y)^(1/2)</item>
-        <item>y^2</item>
+        <item>A.) 7/y</item>
+        <item>B.) 7y</item>
+        <item>C.) (490y)^(1/2)</item>
+        <item>D.) y^2</item>
     </string-array>
 
     <string-array name="questionFourOptions">
         <item>Please select an option</item>
-        <item>10</item>
-        <item>7</item>
-        <item>-10</item>
-        <item>14</item>
+        <item>A.) 10</item>
+        <item>B.) 7</item>
+        <item>C.) -10</item>
+        <item>D.) 14</item>
     </string-array>
 
 </resources>

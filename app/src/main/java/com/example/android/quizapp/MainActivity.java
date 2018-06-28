@@ -137,5 +137,6 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     private void displayMessage (String message){
         TextView answerView = findViewById(R.id.answerStatement);
         answerView.setText(message);
+
     }
 }
