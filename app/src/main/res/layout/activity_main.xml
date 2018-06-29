@@ -6,7 +6,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/gradient"
+    android:background="@drawable/newnum"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -63,10 +63,10 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/imfefcsc28p"
             android:paddingBottom="8dp"
-            android:textStyle="italic"
             android:text="@string/instrution_body"
             android:textAppearance="?android:textAppearanceMedium"
-            android:textColor="@color/deepBlack" />
+            android:textColor="@color/deepBlack"
+            android:textStyle="italic" />
 
         <View
             android:layout_width="match_parent"
@@ -111,6 +111,7 @@
             android:id="@+id/questionOneSpinner"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="cursive"
             android:paddingLeft="8dp" />
 
         <View
@@ -148,6 +149,7 @@
             android:id="@+id/questionTwoSpinner"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="cursive"
             android:paddingLeft="8dp" />
 
         <View
@@ -185,6 +187,7 @@
             android:id="@+id/questionThreeSpinner"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="cursive"
             android:paddingLeft="8dp" />
 
         <View

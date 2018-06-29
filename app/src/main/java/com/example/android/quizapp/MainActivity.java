@@ -31,25 +31,25 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         setContentView(R.layout.activity_main);
 
         numberOne = findViewById(R.id.questionOneSpinner);
-        ArrayAdapter<CharSequence> numberOneAdapter = ArrayAdapter.createFromResource(this, R.array.questionOneOptions, android.R.layout.simple_list_item_1);
+        ArrayAdapter<CharSequence> numberOneAdapter = ArrayAdapter.createFromResource(this, R.array.questionOneOptions, R.layout.spinner_layout);
         numberOneAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         numberOne.setAdapter(numberOneAdapter);
         numberOne.setOnItemSelectedListener(this);
 
         numberTwo = findViewById(R.id.questionTwoSpinner);
-        ArrayAdapter<CharSequence> numberTwoAdapter = ArrayAdapter.createFromResource(this, R.array.questionTwoOptions, android.R.layout.simple_list_item_1);
+        ArrayAdapter<CharSequence> numberTwoAdapter = ArrayAdapter.createFromResource(this, R.array.questionTwoOptions, R.layout.spinner_layout);
         numberTwoAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         numberTwo.setAdapter(numberTwoAdapter);
         numberTwo.setOnItemSelectedListener(this);
 
         numberThree = findViewById(R.id.questionThreeSpinner);
-        ArrayAdapter<CharSequence> numberThreeAdapter = ArrayAdapter.createFromResource(this, R.array.questionThreeOptions, android.R.layout.simple_list_item_1);
-        numberTwoAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        ArrayAdapter<CharSequence> numberThreeAdapter = ArrayAdapter.createFromResource(this, R.array.questionThreeOptions, R.layout.spinner_layout);
+        numberThreeAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         numberThree.setAdapter(numberThreeAdapter);
         numberThree.setOnItemSelectedListener(this);
 
         numberFour = findViewById(R.id.questionFourSpinner);
-        ArrayAdapter<CharSequence> numberFourAdapter = ArrayAdapter.createFromResource(this, R.array.questionFourOptions, android.R.layout.simple_list_item_1);
+        ArrayAdapter<CharSequence> numberFourAdapter = ArrayAdapter.createFromResource(this, R.array.questionFourOptions, R.layout.spinner_layout);
         numberFourAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         numberFour.setAdapter(numberFourAdapter);
         numberFour.setOnItemSelectedListener(this);
